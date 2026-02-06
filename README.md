@@ -16,6 +16,7 @@ Each method has different constraints — energy, land, water, materials, cost �
 - [The Methods](#the-methods)
 - [Inputs Per Ton of CO2](#inputs-per-ton-of-co2)
 - [Bottleneck Analysis](#bottleneck-analysis)
+  - [How crazy is 1 Gt/yr, actually?](#how-crazy-is-1-gtyr-actually)
 - [A Portfolio, Not a Silver Bullet](#a-portfolio-not-a-silver-bullet)
 - [Where Research Might Help Most](#where-research-might-help-most)
 - [Method Deep Dives](#method-deep-dives)
@@ -81,6 +82,14 @@ Every capture method consumes some combination of energy, land, water, and mater
 Energy is the binding constraint for mechanical capture. Pulling 1 GtCO2 out of the air via DAC takes roughly **1,100-2,550 TWh**[^15] — about 4-8% of global electricity generation. At 10 Gt, that's 40-80% of current global electricity, or the equivalent output of 3,000-7,000 new nuclear reactors dedicated to nothing but carbon capture.
 
 That math is why DAC alone can't do this, and why the cost trajectory of solar power matters so much for CDR. At $28/MWh and falling,[^13] cheap renewables make methods viable that would have been absurd a decade ago. But the sheer volume of new generation needed is still enormous.
+
+#### Thermodynamic floor
+
+There's a hard physics limit on how little energy CO2 capture can require. Separating CO2 from air (at ~420 ppm) is fundamentally an entropy-of-mixing problem. The Second Law minimum — the absolute theoretical floor — is about **125 kWh per ton of CO2**.[^39] Add compression to pipeline/storage pressure (~150 bar) and it rises to roughly **190 kWh/tCO2**.[^39] No process, no matter how cleverly engineered, can beat this.
+
+Current DAC systems operate at roughly **1,100-2,500 kWh/tCO2** — about 4-7% of thermodynamic efficiency.[^39] That's typical for industrial separations (distillation, desalination, etc. run at 5-20% of their thermodynamic limits). Realistic engineering projections put the long-term floor at **500-1,000 kWh/tCO2** — maybe 3-5x improvement from today, but not 10x.[^39][^40]
+
+This matters for scale-up math. Even a hypothetical "perfect" DAC system at the thermodynamic floor would need **125 TWh to capture 1 GtCO2** — about 0.4% of global electricity. Achievable. But real engineering will land somewhere between 300 and 1,000 kWh/tCO2, meaning 1 Gt of DAC will always require **300-1,000 TWh** of dedicated clean energy. At 10 Gt, that's 3,000-10,000 TWh — 10-33% of current global generation. The thermodynamic floor confirms that energy supply is a permanent constraint for mechanical CDR, not just a temporary cost problem.
 
 ### Land
 
@@ -216,11 +225,42 @@ For each method, we can identify the primary constraint — the thing most likel
 | **Iron Fertilization** | Ecological risk + governance | MRV (export efficiency) | Iron across millions of km² | Controlled safety trials; international agreement |
 | **Microalgae Ponds** | Scaling infrastructure | Pumping energy | Millions of hectares coastal desert | Cheaper ponds; gravity-fed seawater systems |
 
-A few patterns worth noting:
+### How crazy is 1 Gt/yr, actually?
 
-- **Mechanical methods** are generally bottlenecked by **energy and cost**. The technology works; powering and paying for it at scale is the problem.
-- **Biological land methods** are bottlenecked by **land and permanence**. Plants capture carbon well, but forests burn and there's only so much land.
+The bottleneck table says "what needs to happen." This section tries to give a feel for _how much_ needs to happen — what 1 GtCO2/year of removal actually demands for each method, compared to what exists today.
+
+**Solid Sorbent DAC:** Current capacity is ~44,000 tCO2/yr (Climeworks' Orca + Mammoth plants). 1 Gt would require **~1,000 megaton-scale plants**, consuming **250-750 TWh of electricity** plus **1,750 TWh of low-grade heat** per year — roughly 2-7% of global electricity generation. Construction would require 50-150 Mt of steel and concrete (2-8% of one year's global production), and the amine sorbents that do the actual capturing would need **5-20 Mt/yr** of replacement material, against current production of less than 1 Mt/yr. Multiplication factor from today: **~22,700x**.
+
+**Liquid Solvent DAC:** 1 Gt means **~2,000 STRATOS-scale chemical plants** (each 500 kt/yr). The 900°C calciners would burn **80-135 billion m³ of natural gas per year** (2-3% of global production) — and for every ton of CO2 captured from air, the gas combustion produces another ~0.3-0.5 tons that must also be captured. Electrifying the calciner would eliminate this paradox but hasn't been demonstrated at scale. KOH make-up alone would consume **25-100% of current global production**.[^26]
+
+**Passive DAC:** Heirloom's current capacity is ~1,000 tCO2/yr. 1 Gt requires **10,000-30,000 km² of tray arrays** (Belgium to Massachusetts) and **0.5-2 Gt/yr of limestone** — 11-44% of current global quarrying. The electricity for calcination alone would be **1,000-1,800 TWh/yr** (3.5-6.5% of global generation). Multiplication factor: **~1,000,000x**.
+
+**Electrochemical DAC:** Currently at lab scale (~kg/day). The energy numbers are the best of any DAC method — **300-800 TWh/yr** for 1 Gt, or 1-3% of global electricity — but the technology needs to go from benchtop to 1,000 commercial facilities. Bipolar membrane production would need to scale **100-1,000x**. If it works, it's the most promising DAC path. If electrode durability can't be solved, it's a dead end.
+
+**Ocean Alkalinity Enhancement (olivine route):** 1 Gt of OAE requires mining **1.0-1.3 Gt of olivine per year** — building a new mining industry roughly half the size of global iron ore. That olivine would need to be crushed and distributed via **1,000-3,000 bulk carrier ships** (8-25% of the global fleet) or spread across **50,000-200,000 km of coastline** (3-12% of global coastline). One wrinkle: olivine contains nickel, and the weathering process would release **2-4 Mt of nickel per year** into the ocean — roughly equal to total global nickel production. The ecological implications of that are unknown.[^30]
+
+**Direct Ocean Capture:** Captura's pilot captures ~100 tCO2/yr. 1 Gt needs **~1,000 coastal plants**, **500-2,000 TWh/yr of energy**, and a **25x scale-up of global CO2 geological storage** (from 0.04 Gt/yr to 1 Gt/yr). Bipolar membrane manufacturing would need to scale 100-1,000x, same as electrochemical DAC. Multiplication factor from today: **~10,000,000x**.
+
+**Reforestation:** At an average ~10 tCO2/ha/yr (blending tropical and temperate), 1 Gt requires **~100 million hectares** — roughly the area of Egypt. Current net global reforestation is ~0.5 Mha/yr, so the planting rate would need to increase **20-40x** and sustain that for 5-10 years. Then you wait 15-30 years for the trees to reach full sequestration rates. Global nursery capacity would need to go from ~10-15 billion seedlings/yr to **50-100+ billion/yr**. Total restorable land (~2 billion ha) isn't the hard limit; time is.
+
+**Bamboo Construction:** This is one of the more plausible paths. Current bamboo area is ~37 Mha; 1 Gt in durable products requires **40-83 Mha** (only 1.1-2.2x current area — bamboo grows fast and regrows from roots). The real bottleneck: the global construction market would need to go from **<0.1% bamboo** to **10-15% bamboo** — a 100-150x increase in market share. That means **600-1,200 large processing facilities** (vs. ~200-500 today) and building codes that recognize bamboo as structural material. Cost per tCO2 is **negative** (-$85 to -$410) because you're selling a building product. Of all methods reviewed, this is the only one that's profitable without subsidies.[^33]
+
+**Biochar:** Current production removes ~0.3-0.5 MtCO2/yr. 1 Gt requires **~1 Gt/yr of dry biomass feedstock** (20-40% of global sustainable waste biomass supply) processed through **~20,000 large pyrolysis facilities** or **~600,000 modular containerized units** distributed at farms and sawmills within a 15-40 km collection radius. The good news: the process is net energy-positive (produces 200-700 kWh per tCO2 removed), permanence is 500-5,000+ years, and projected cost at scale is $20-100/tCO2. The constraint is purely logistical — getting billions of tons of bulky agricultural residue to pyrolysis units.[^34]
+
+**Kelp Forests:** 1 Gt of kelp-based CDR requires farming **5-20 million km² of ocean** (1.4-5.5% of total ocean surface, or roughly India-to-Russia in area), producing **~900 Mt/yr of dry biomass** — a **150x increase** over all current global seaweed production. The farms would consume **13-27 Mt of nitrogen per year** (12-25% of global synthetic N production) and require a fleet of **10,000-50,000 harvesting vessels**. Net CDR is only 25-50% of gross fixation due to grazing, DOC release, and remineralization losses. Sargassum harvesting alone caps out at ~1.5-7 MtCO2/yr — useful, but two orders of magnitude short of a gigaton.[^36]
+
+**Iron Fertilization:** The materials are trivial — **0.1-1 Mt of iron per year**, delivered by **100-500 ships** (small vs. the global fleet of ~60,000). The cost could be as low as **$5-50/tCO2**. The problem isn't logistics; it's that only 1-10% of the carbon fixed at the surface actually sinks below 1,000 meters, and the "nutrient robbing" effect (stealing nutrients from downstream ecosystems) may offset 70-90% of the apparent benefit. Models suggest the hard ceiling is about **0.5-2 GtCO2/yr** even with unlimited iron — and the London Protocol has effectively blocked large-scale experiments since 2013.[^37]
+
+**Microalgae Ponds:** Brilliant Planet's concept needs **12.5-33 million hectares of coastal desert** to reach 1 Gt — and total suitable coastal desert globally is only about **20-45 million hectares**. That means 1 Gt would consume **28-100% of all suitable land on Earth** for this method. Each facility (~1,000 ha) requires massive seawater pumping infrastructure; at scale, nitrogen supplementation alone would be **15-30 Mt N/yr** (10-20% of global fertilizer production). The method has excellent permanence (desert burial, 1,000-10,000+ years) and good MRV (contained land-based system), but it's hard-capped by geography at roughly **1-2.25 GtCO2/yr theoretical maximum**.[^38]
+
+### Patterns
+
+A few things stand out from these numbers:
+
+- **Mechanical methods** are generally bottlenecked by **energy and cost**. The technology works; powering and paying for it at scale is the problem. Every DAC variant at 1 Gt requires hundreds to thousands of TWh/yr of clean energy — and the thermodynamic floor guarantees this never goes away entirely.
+- **Biological land methods** are bottlenecked by **land and permanence**. Plants capture carbon well, but forests burn, and there's only so much land. Bamboo and biochar partly solve the permanence problem by locking carbon into buildings and soil.
 - **Ocean methods** are bottlenecked by **measurement and governance**. In many cases the chemistry and biology are sound, but we can't yet reliably verify results, and the regulatory frameworks for modifying ocean chemistry at scale don't exist.
+- **Nearly every method at 1 Gt consumes a non-trivial fraction of some global resource** — electricity, land, minerals, fertilizer, coastline, shipping capacity. This is why no single method can do it alone, and why a portfolio approach isn't just convenient, it's physically necessary.
 
 This suggests that effective research investment looks different for each category: cheaper energy and better materials for machines, permanence solutions for biology, and monitoring/verification technology for the ocean.
 
@@ -394,6 +434,9 @@ A few things that seem clear from the data:
 [^36]: NASEM Ocean CDR Report (2022); Phathom, SOS Carbon disclosures. Sequestration requires sinking below ~1,000m. Running Tide ceased ocean CDR operations. See [methods/kelp_forests.md](methods/kelp_forests.md).
 [^37]: Martin (1988); Boyd et al. (2007) review of 13+ mesoscale experiments; ExOIS consortium. Theoretical iron:CO2 ratio up to 1:130,000 (molar); realistic export-adjusted ratio ~1:1,000-10,000. Export efficiency: 1-10% of surface production reaches >1,000m. London Protocol amendment 2013. See [methods/iron_fertilization.md](methods/iron_fertilization.md).
 [^38]: Brilliant Planet disclosures. 30-hectare Morocco pilot; claimed 30-80 tCO2/ha/yr; burial in hyper-arid desert for millennial permanence. See [methods/microalgae_ponds.md](methods/microalgae_ponds.md).
+
+[^39]: House et al. (2011), "Economic and energetic analysis of capturing CO2 from ambient air," PNAS. Thermodynamic minimum for CO2 separation from 400 ppm air: ~20 kJ/mol (~125 kWh/tCO2). With compression to 150 bar: ~30.6 kJ/mol (~191 kWh/tCO2). Current DAC operates at 4-7% of thermodynamic efficiency. [PNAS](https://doi.org/10.1073/pnas.1012253108).
+[^40]: Socolow et al. (2011), "Direct Air Capture of CO2 with Chemicals," APS Physics. Engineering floor for practical DAC: ~500-1,000 kWh/tCO2, consistent with typical industrial separation efficiencies of 5-20% of thermodynamic minimum. [APS](https://www.aps.org/policy/reports/assessments/direct-air-capture).
 
 ---
 
