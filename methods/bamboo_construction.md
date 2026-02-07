@@ -617,11 +617,14 @@ Storage Switch:     Grow bamboo → Make beams → Sell to builders → Revenue:
 | **Strength:weight (tensile)** | ★★★★★ | ★★★★★ | ★★★ | ★★★ | ★ |
 
 **Key structural findings:**
-- Bamboo scrimber's **specific strength (strength/density) exceeds that of structural steel** — per unit weight, bamboo is stronger in tension and compression
-- However, bamboo's **modulus of elasticity (10–15 GPa) is roughly 15x lower than steel (200 GPa)**, meaning it is far less stiff. For applications where deflection and stiffness govern design (long spans, tall columns, high-rise structures), bamboo cannot substitute for steel.
-- Laminated bamboo has mechanical properties **comparable to hardwood glulam** — it competes with wood, not with steel or reinforced concrete in most structural roles
+- Bamboo scrimber's **specific strength (strength/density) exceeds that of structural steel** — per unit weight, bamboo is stronger in tension and compression. However, Wikipedia's "Bamboo construction" article explicitly flags "bamboo is stronger than steel" as a myth: people conflate strength-to-weight ratio with actual strength.
+- Bamboo's **modulus of elasticity (10–15 GPa) is roughly 15x lower than steel (200 GPa)**, meaning it is far less stiff. For applications where deflection and stiffness govern design (long spans, tall columns, high-rise structures), bamboo cannot substitute for steel.
+- Bamboo has **~1/30th the capacity of high-yield steel** (the kind actually used in modern construction), and cannot replace steel reinforcement in concrete — the volume required would not fit, it cannot bond properly with concrete, and concrete cannot protect bamboo from decay.[Archila et al. 2018]
+- Laminated bamboo has mechanical properties **comparable to hardwood glulam** — it competes with wood, not with steel or reinforced concrete in most structural roles. The ICE notes it "behaves more like hardwood."[ICE 2025]
 - Bamboo's natural hollow, tubular structure (in round form) provides excellent **moment of inertia** for structural columns
 - Engineered bamboo connections remain an active research area — steel plate and bolt connections, adhesive joints, and proprietary systems are all used
+
+*Sources: Archila, H.; Kaminski, S.; Trujillo, D.; Zea Escamilla, E.; Harries, K. (2018). "Bamboo reinforced concrete: a critical review." Materials and Structures. 51(4); ICE (2025), "Building with bamboo: a sustainable solution for the future"; Wikipedia, "Bamboo construction" — Myths section.*
 
 ### 7.3 Fire Resistance
 
@@ -642,18 +645,27 @@ Storage Switch:     Grow bamboo → Make beams → Sell to builders → Revenue:
 
 ### 7.4 Durability and Pest Resistance
 
+**Why bamboo decays faster than timber:** Bamboo is a grass, not a tree, and lacks three defenses that give timber its natural durability: (1) heartwood extractives — trees deposit toxic tannins, terpenes, and phenolic compounds in dead inner wood; bamboo produces none; (2) high lignin content — bamboo has ~20-26% lignin vs. ~25-35% for hardwoods; (3) low starch — bamboo stores 2-6% starch (up to 10%), which is food for insects and fungi; timber heartwood has <1%. Untreated bamboo lasts **2-6 years indoors** and **less than 1 year** if exposed to water.[Kaminski et al. 2016; Janssen 2000]
+
 | Threat | Untreated Bamboo | Treated/Engineered Bamboo | Mitigation |
 |--------|-----------------|--------------------------|------------|
-| **Termites** | Vulnerable | Resistant | Boron treatment; strand-woven density too high for termites |
-| **Powder-post beetles** | Vulnerable (starch content) | Resistant | Heat treatment removes starch; chemical treatment |
-| **Fungal decay** | Moderate | Highly resistant | Boron + controlled moisture; carbonization |
+| **Termites** | Highly vulnerable | Resistant | Boron treatment; strand-woven density too high for termites |
+| **Powder-post beetles** | Highly vulnerable (starch content) | Resistant | Heat treatment removes starch; chemical treatment |
+| **Fungal decay (rot)** | Highly vulnerable | **Still vulnerable if wet** | Boron does NOT prevent rot; bamboo must be kept dry by design |
 | **UV degradation** | Moderate | Managed | Coatings; not exposed in structural use |
-| **Moisture** | Moderate | Managed | Design detailing; treatment; sealants |
+| **Moisture** | Severe — bamboo rots rapidly when wet | Design-dependent | Elevation, roof overhangs, damp-proof membranes, waterproof coatings |
 
-- **Strand-woven bamboo** (dassoXTR type) has density >1,050 kg/m³ — physically too dense for termite boring
-- **Boron treatment** is the standard preservation method — effective, low-toxicity, and proven for bamboo
+**Critical durability principle — both are required:**[Kaminski et al. 2016]
+1. **Treatment (boron)** — protects against insects (beetles and termites) but does NOT protect against rot, and will wash out if exposed to water
+2. **Durability by design** — the bamboo must be kept dry throughout its life through good architectural design: elevation above ground, damp-proof membranes, drip details, roof overhangs, waterproof wall coatings
+
+**"Bamboo only needs to be treated to protect it from decay" is a common misconception** (see Wikipedia, "Bamboo construction"). Boron by itself is inadequate against rot, and many existing bamboo structures show decay because they did not follow durability-by-design principles. This is a significant constraint in tropical/monsoon climates — precisely where bamboo grows best.
+
+- **Strand-woven bamboo** (dassoXTR type) has density >1,050 kg/m³ — physically too dense for termite boring, and resin impregnation provides some moisture resistance beyond what boron treatment offers
 - **Heat treatment/carbonization** (as used by dasso) removes starches and sugars that attract pests, while increasing dimensional stability
-- Properly designed bamboo buildings in the tropics have demonstrated **50+ year service life** (historical structures in Colombia, Ecuador, and Asia)
+- Properly designed bamboo buildings in the tropics have demonstrated **50+ year service life** — but "properly designed" means continuous attention to keeping bamboo dry (historical structures in Colombia, Ecuador, and Asia with good roof overhangs and elevation)
+
+*Sources: Kaminski, S.; Lawrence, A.; Trujillo, D.; King, C. (2016). "Structural use of bamboo. Part 2: Durability and preservation." The Structural Engineer. 94(10): 38-43; Janssen, J. (2000), INBAR Technical Report 20; Wikipedia, "Bamboo construction" — Durability section.*
 
 ---
 
@@ -958,7 +970,16 @@ Beyond 0.5 GtCO2/yr: Requires market creation
 
 ## Sources and References
 
-### Scientific Literature
+### Structural Engineering and Durability Literature
+- Kaminski, S.; Lawrence, A.; Trujillo, D. (2016). "Structural use of bamboo. Part 1: Introduction to bamboo." *The Structural Engineer*, 94(8), 40-43.
+- Kaminski, S.; Lawrence, A.; Trujillo, D.; King, C. (2016). "Structural use of bamboo. Part 2: Durability and preservation." *The Structural Engineer*, 94(10), 38-43.
+- Kaminski, S.; Lawrence, A.; Trujillo, D.; Feltham, I.; Felipe López, L. (2016). "Structural use of bamboo. Part 3: Design values." *The Structural Engineer*, 94(12), 42-45.
+- Archila, H.; Kaminski, S.; Trujillo, D.; Zea Escamilla, E.; Harries, K. (2018). "Bamboo reinforced concrete: a critical review." *Materials and Structures*, 51(4), 102.
+- Janssen, J. (2000). INBAR Technical Report 20: *Designing and Building with Bamboo*. INBAR: Beijing.
+- Wikipedia. "Bamboo construction." Accessed February 2026. https://en.wikipedia.org/wiki/Bamboo_construction — includes well-sourced sections on durability, common myths, and structural limitations.
+- ICE (2025). "Building with bamboo: a sustainable solution for the future." Institution of Civil Engineers. https://www.ice.org.uk/news-views-insights/inside-infrastructure/building-with-bamboo
+
+### Carbon and Lifecycle Literature
 - Nath, A.J., et al. (2015). "Managing woody bamboos for carbon farming and carbon trading." *Global Ecology and Conservation*, 3, 654–663.
 - Yiping, L., et al. (2010). "Bamboo and Climate Change Mitigation." INBAR Technical Report No. 32.
 - Song, X., et al. (2011). "Carbon sequestration by Chinese bamboo forests and their ecological benefits." *Journal of Forest Research*, 16(3), 223–228.
@@ -989,6 +1010,8 @@ Beyond 0.5 GtCO2/yr: Requires market creation
 - Liese, W., & Köhl, M. (2015). *Bamboo: The Plant and its Uses*. Springer.
 
 ### Market Research
+- FAO. "Global Forest Products Facts and Figures 2023." Global sawnwood production: ~445 million m³/yr.
+- Grand View Research. "Light Gauge Steel Framing Market." ~38 Mt/yr globally (2024).
 - Grand View Research. "Bamboo Market Size, Share & Trends Analysis Report."
 - World Steel Association. "World Steel in Figures" (annual).
 - Global Cement and Concrete Association (GCCA). Industry statistics.
