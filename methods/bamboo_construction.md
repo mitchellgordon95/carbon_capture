@@ -2,15 +2,15 @@
 
 ## Executive Summary
 
-Bamboo construction leverages the fastest-growing woody plant on Earth to sequester atmospheric CO2 into durable building materials that replace carbon-intensive steel and concrete. The core insight — **"The Storage Switch"** — is that selling sequestered carbon as a high-performance steel/concrete replacement makes capture profitable without subsidies, turning carbon sequestration from a cost center into a revenue-generating business.
+Bamboo construction leverages the fastest-growing woody plant on Earth to sequester atmospheric CO2 into durable building materials. The core insight — **"The Storage Switch"** — is that selling sequestered carbon as a construction product makes capture profitable without subsidies, turning carbon sequestration from a cost center into a revenue-generating business.
 
 **Key headline numbers:**
 - Bamboo sequesters **12–25 tCO2/ha/year** (vs. 5–15 for fast-growing timber plantations)
 - Bamboo reaches harvest maturity in **3–7 years** (vs. 20–80 for timber)
-- Engineered bamboo has tensile strength **2–3x that of structural steel** by weight
+- Engineered bamboo has tensile strength **2–3x that of structural steel per unit weight** — but 15x lower stiffness (modulus of elasticity), limiting it to wood-framing-class applications rather than steel replacement
 - Bamboo regrows from existing root systems — **no replanting required** for 50–80 years
-- The global construction sector consumes ~4.4 Gt of cement and ~1.9 Gt of steel annually, representing a vast addressable market for substitution
-- Reaching 10 GtCO2/yr capture would require ~400–800 Mha of bamboo plantation — a significant but not physically impossible land area
+- The realistic addressable market is **wood framing and light-gauge steel framing** (~110–140 Mt/yr globally), not the full steel/concrete market
+- **Demand-side ceiling:** even replacing all structural framing globally with bamboo stores only ~0.2–0.4 GtCO2/yr; reaching beyond that requires displacing concrete/masonry in developing countries where wood framing barely exists
 
 ---
 
@@ -440,7 +440,7 @@ Storage Switch:     Grow bamboo → Make beams → Sell to builders → Revenue:
 | **Timber (CLT)** | $0.80–1.20 | -0.8 tCO2/t | $0.80–1.20 - $40/t = lower |
 | **Engineered bamboo** | $0.70–1.30 | -1.2 tCO2/t | $0.70–1.30 - $60/t = lowest |
 
-**Key finding:** Even without carbon pricing, engineered bamboo is **cost-competitive with steel on a per-unit-of-structural-capacity basis** in many applications. With carbon pricing at $50/tCO2 or above, bamboo becomes the cheapest structural material available.
+**Key finding:** Even without carbon pricing, engineered bamboo is **cost-competitive with wood framing and light-gauge steel framing** in residential and low-rise commercial applications. With carbon pricing at $50/tCO2 or above, the cost advantage widens. However, for mid-rise and high-rise structures where reinforced concrete or structural steel are used, bamboo is generally not a viable substitute due to its much lower stiffness (modulus of elasticity ~15x lower than steel).
 
 *Sources: World Bank Carbon Pricing Dashboard; McKinsey "Pathways to a low-carbon economy"; van der Lugt et al. (2012); Global Bamboo and Rattan Congress proceedings (2018); industry interviews and trade publications.*
 
@@ -616,8 +616,9 @@ Storage Switch:     Grow bamboo → Make beams → Sell to builders → Revenue:
 | **Strength:weight (tensile)** | ★★★★★ | ★★★★★ | ★★★ | ★★★ | ★ |
 
 **Key structural findings:**
-- Bamboo scrimber's **specific strength (strength/density) exceeds that of structural steel** — meaning per unit weight, bamboo is stronger
-- Laminated bamboo has mechanical properties **comparable to hardwood glulam**
+- Bamboo scrimber's **specific strength (strength/density) exceeds that of structural steel** — per unit weight, bamboo is stronger in tension and compression
+- However, bamboo's **modulus of elasticity (10–15 GPa) is roughly 15x lower than steel (200 GPa)**, meaning it is far less stiff. For applications where deflection and stiffness govern design (long spans, tall columns, high-rise structures), bamboo cannot substitute for steel.
+- Laminated bamboo has mechanical properties **comparable to hardwood glulam** — it competes with wood, not with steel or reinforced concrete in most structural roles
 - Bamboo's natural hollow, tubular structure (in round form) provides excellent **moment of inertia** for structural columns
 - Engineered bamboo connections remain an active research area — steel plate and bolt connections, adhesive joints, and proprietary systems are all used
 
@@ -707,7 +708,31 @@ Storage Switch:     Grow bamboo → Make beams → Sell to builders → Revenue:
 | CAGR (bamboo construction, projected) | 8–15% | 2023–2030 | Multiple market research firms |
 | China's bamboo industry output | ~$40–50 billion | 2023 | China National Forestry and Grassland Administration |
 
-### 9.2 Addressable Market for Carbon Storage
+### 9.2 The Demand-Side Constraint
+
+The tables below — from industry sources — project large addressable markets. However, these projections deserve scrutiny because they assume bamboo can penetrate markets (commercial structure, infrastructure) where it cannot currently compete with steel or reinforced concrete on stiffness. A more grounded analysis starts with the actual framing market.
+
+**The framing market bamboo can realistically address:**
+
+| Market Segment | Annual Material Volume | Bamboo Substitution Potential | CO2 Stored (at ~1.7 tCO2/t bamboo) |
+|---|---|---|---|
+| **Structural wood framing** | ~70–100 Mt/yr (FAO 2023) | Direct substitution where codes allow | ~120–170 MtCO2/yr |
+| **Light-gauge steel framing** | ~38 Mt/yr (Grand View Research) | Direct substitution (comparable strength class) | ~50–65 MtCO2/yr (less mass needed) |
+| **Non-structural wood (sheathing, trim)** | ~50–70 Mt/yr | Partial substitution | ~30–50 MtCO2/yr |
+| **Flooring, cladding, furniture** | Variable | Supplement, not structural | ~30–60 MtCO2/yr |
+| **TOTAL (realistic ceiling)** | | | **~0.2–0.35 GtCO2/yr** |
+
+**Why the ceiling is lower than industry projections suggest:**
+
+1. **Wood framing is concentrated in a few wealthy countries.** The US (~93% wood-framed homes), Canada, Australia, New Zealand, Scandinavia, and Japan build ~5–7 million wood-framed homes per year. The other ~50 million homes built globally use concrete, masonry, and brick — materials bamboo cannot structurally replace in their current applications.
+
+2. **Bamboo competes with wood, not with steel or concrete.** With a modulus of elasticity of 10–15 GPa (vs. steel's 200 GPa and concrete's 20–30 GPa), engineered bamboo is in the same structural class as timber. It can substitute for wood studs, joists, and rafters. It cannot substitute for steel beams in a 20-story building or reinforced concrete in a foundation.
+
+3. **Price collapse at scale.** The negative-cost-per-tCO2 calculation assumes bamboo sells at current market prices ($800–2,000/t for engineered products). Flooding the market with 100x more product would drive prices toward commodity wood levels ($200–400/t), eroding the economics.
+
+4. **Getting to >0.5 GtCO2/yr requires a fundamentally different market.** Bamboo would have to displace concrete and masonry construction in China, India, Africa, and Latin America — countries where wood framing barely exists. This is a market-creation problem, not a material-substitution problem. It requires changing building traditions, training builders, establishing supply chains, and overcoming the perception of bamboo as a low-cost/informal material.
+
+**The industry-optimistic projections (retained for reference, with caveats):**
 
 | Market Segment | Global Size (annual) | Bamboo Addressable (%) | Potential Bamboo Revenue | tCO2 Stored/yr |
 |---------------|---------------------|----------------------|------------------------|---------------|
@@ -719,6 +744,8 @@ Storage Switch:     Grow bamboo → Make beams → Sell to builders → Revenue:
 | **Infrastructure** | ~$100B | 2–5% | $2–5B | 0.05–0.1 Gt |
 | **TOTAL** | ~$900B | — | $62–167B | **1.1–3.1 Gt** |
 
+*Note: These figures come primarily from INBAR and bamboo industry sources. The upper range (>1 GtCO2/yr) assumes bamboo penetrates the concrete/masonry market in developing countries at scale — a scenario with no historical precedent. The lower range (0.2–0.4 GtCO2/yr) reflects substitution within the existing framing market and is more defensible.*
+
 ### 9.3 Growth Trajectory Estimates
 
 | Timeframe | Engineered Bamboo Market | % of Construction Material Market | Annual CO2 Stored in New Bamboo Buildings |
@@ -726,70 +753,75 @@ Storage Switch:     Grow bamboo → Make beams → Sell to builders → Revenue:
 | **2024 (current)** | $3–5B | <0.1% | ~5–15 MtCO2 |
 | **2030 (near-term)** | $10–20B | 0.2–0.5% | 30–80 MtCO2 |
 | **2040 (medium-term)** | $50–150B | 1–3% | 200–600 MtCO2 |
-| **2050 (long-term)** | $200–500B | 3–8% | 0.5–2.0 GtCO2 |
-| **2060+ (scaled)** | $500B–1T+ | 8–15% | 2–5 GtCO2 |
+| **2050 (conservative)** | $50–100B | 1–3% | 200–400 MtCO2 |
+| **2050 (optimistic, requires concrete/masonry displacement)** | $200–500B | 3–8% | 0.5–2.0 GtCO2 |
 
 ---
 
-## 10. Scaling to 10 Gt/yr — Feasibility Assessment
+## 10. Scaling Assessment
 
-### 10.1 What Would 10 GtCO2/yr Require?
+### 10.1 Why 10 GtCO2/yr Is Not Realistic
+
+The original framing of this section (assessing feasibility of 10 GtCO2/yr from bamboo construction) reflects industry-optimistic projections. A demand-side analysis shows this is not a meaningful target:
+
+- 10 GtCO2/yr would require **~580–830 Mt/yr of bamboo products** in construction
+- Total global structural framing market (wood + light-gauge steel) is only **~110–140 Mt/yr**
+- Even if bamboo captured **100% of all framing globally**, stored CO2 would be **~0.2–0.4 Gt/yr**
+- Reaching 10 Gt would require bamboo to capture **~30–50% of the total construction materials market** including concrete and structural steel — applications where bamboo's 15x lower stiffness makes it structurally uncompetitive
+
+The supply-side requirements (400–830 Mha of plantation) are challenging but physically possible. **The binding constraint is demand, not supply.**
+
+### 10.2 What 0.2–0.5 GtCO2/yr Would Require (Realistic Target)
 
 | Requirement | Quantity | Current Status | Gap |
 |------------|---------|---------------|-----|
-| **Bamboo plantation area** | 400–830 Mha | ~37 Mha | 10–22x increase |
-| **Processing capacity** | 600–1,200 Mt product/yr | ~30 Mt/yr (China alone) | 20–40x increase |
-| **Processing facilities** | 6,000–12,000 large plants | ~200–500 existing | 12–60x increase |
-| **Workers (plantation + processing)** | 50–200 million | ~10 million (bamboo sector) | 5–20x increase |
-| **Construction market penetration** | 30–50% of global structural market | <0.1% | 300–500x increase |
-| **Capital investment** | $1–4 trillion (cumulative over 20 yrs) | ~$10B/yr current sector | 5–20x annual investment increase |
-| **Available suitable land** | 400–830 Mha needed | 500–1,000 Mha degraded tropical land | Tight but physically possible |
+| **Bamboo plantation area** | 40–83 Mha | ~37 Mha | 1.1–2.2x increase |
+| **Processing capacity** | 60–120 Mt product/yr | ~30 Mt/yr (China alone) | 2–4x increase |
+| **Processing facilities** | 600–1,200 large plants | ~200–500 existing | 1.2–6x increase |
+| **Construction market penetration** | 30–60% of global framing market | <0.1% | 300–600x increase |
+| **Capital investment** | $50–200B cumulative | ~$10B/yr current sector | Manageable |
 
-### 10.2 Bottleneck Analysis
+### 10.3 Bottleneck Analysis
 
 | Bottleneck | Severity (1–5) | Timeframe to Resolve | Notes |
 |-----------|----------------|---------------------|-------|
+| **Demand ceiling (framing market size)** | 5 | Structural; may not resolve | The framing market bamboo competes in is only ~140 Mt/yr globally |
 | **Building codes/standards** | 4 | 5–15 years | ISO standards exist; national adoption is slow |
 | **Architect/builder familiarity** | 4 | 10–20 years | Training, demonstration projects needed |
+| **Market creation in concrete/masonry countries** | 5 | 20–40 years (if ever) | No precedent for displacing concrete/masonry with framing in developing world |
 | **Processing infrastructure** | 3 | 10–20 years | Proven technology; needs capital and deployment |
-| **Plantation establishment** | 3 | 5–10 years to productivity | Bamboo grows fast, but 5 yrs to first harvest |
-| **Land availability** | 3 | Ongoing | Competition with agriculture; degraded land is key |
-| **Supply chain logistics** | 3 | 10–15 years | Global distribution networks needed |
-| **Consumer acceptance** | 2 | 5–15 years | Perception shift: bamboo as premium, not primitive |
-| **Capital availability** | 2 | 5–10 years | ESG/climate investment trends are favorable |
+| **Plantation establishment** | 2 | 5–10 years to productivity | Bamboo grows fast; land expansion modest for realistic targets |
+| **Consumer acceptance** | 3 | 5–15 years | Perception shift: bamboo as premium, not primitive |
 | **Raw material (bamboo biology)** | 1 | Already resolved | Bamboo grows abundantly; no genetic engineering needed |
-| **Technical performance** | 1 | Already resolved | Proven structural performance; testing data extensive |
+| **Technical performance** | 1 | Already resolved | Proven for framing-class applications; not competitive with steel/concrete |
 
-### 10.3 Realistic Scaling Timeline
+### 10.4 Realistic Scaling Timeline
 
 ```
 2024–2030: Foundation Phase
-  - Engineered bamboo gains building code acceptance in 20+ countries
-  - BamCore, dasso, and others scale production 5–10x
-  - 50–100 Mha of new bamboo plantation established on degraded land
-  - Annual sequestration in bamboo buildings: 50–100 MtCO2/yr
+  - Engineered bamboo gains building code acceptance in 10–20 countries
+  - BamCore, dasso, and others scale production 3–5x
+  - 5–15 Mha of new bamboo plantation established on degraded land
+  - Annual sequestration in bamboo buildings: 20–50 MtCO2/yr
 
 2030–2040: Growth Phase
   - Bamboo becomes standard option in green building specifications
-  - 200+ Mha total bamboo plantation globally
-  - Manufacturing capacity reaches 100–300 Mt/yr
-  - Annual sequestration: 0.5–1.5 GtCO2/yr
+    in wood-framing markets (USA, Canada, Australia, Scandinavia)
+  - 50–60 Mha total bamboo plantation globally
+  - Manufacturing capacity reaches 50–80 Mt/yr
+  - Annual sequestration: 100–200 MtCO2/yr
 
-2040–2050: Scale Phase
-  - Bamboo/timber hybrids become default for mid-rise buildings
-  - 400+ Mha bamboo plantation
-  - Manufacturing capacity 500+ Mt/yr
-  - Annual sequestration: 2–4 GtCO2/yr
+2040–2050: Maturity Phase (within framing market)
+  - Bamboo captures 15–30% of global framing market
+  - 60–80 Mha bamboo plantation
+  - Manufacturing capacity 80–120 Mt/yr
+  - Annual sequestration: 0.2–0.4 GtCO2/yr (demand ceiling in framing market)
 
-2050–2060: Maturity Phase
-  - Bamboo construction fully mainstream
-  - 600+ Mha bamboo plantation in sustained production
-  - Annual sequestration: 3–6 GtCO2/yr
-
-Note: Reaching the full 10 GtCO2/yr from bamboo construction alone
-is likely unrealistic. A more achievable target is 2–5 GtCO2/yr
-from bamboo construction as part of a broader portfolio of solutions
-including timber (CLT), biochar, enhanced weathering, and DAC.
+Beyond 0.5 GtCO2/yr: Requires market creation
+  - Displacing concrete/masonry in developing-country housing
+  - No historical precedent; would require fundamental changes
+    in building traditions across China, India, Africa, Latin America
+  - Timeline: uncertain; may never happen at scale
 ```
 
 ---
@@ -849,7 +881,7 @@ including timber (CLT), biochar, enhanced weathering, and DAC.
 | Soil carbon | +10 to +50 | 10–100 yrs (vulnerable) | 2–5 | TRL 6–8 | Partial (yield improvement) |
 | **Mass timber (CLT)** | **-50 to -200 (profit)** | 50–100 yrs | 1–3 | TRL 8–9 | **Yes** |
 
-**Bamboo construction's unique position:** It is one of only two carbon capture methods (along with mass timber) that is **profitable without subsidies or carbon credits**. The combination of high capture rate, revenue from material sales, and proven technology makes it arguably the most economically viable carbon removal pathway available today.
+**Bamboo construction's unique position:** It is one of only two carbon capture methods (along with mass timber) that is **profitable without subsidies or carbon credits**. The combination of high capture rate, revenue from material sales, and proven technology makes it economically attractive. However, the profitability is contingent on selling product at current market prices — which assumes demand exists. The global framing market (~110–140 Mt/yr) caps the realistic demand. The economic case weakens significantly if bamboo has to compete in the concrete/masonry market where it has no structural advantage.
 
 ---
 
@@ -906,18 +938,18 @@ including timber (CLT), biochar, enhanced weathering, and DAC.
 
 | Dimension | Score (1-10) | Assessment |
 |-----------|-------------|-----------|
-| **Physical feasibility** | 6/10 | Possible but requires ~500+ Mha of plantation — most available suitable land |
+| **Physical feasibility** | 6/10 | Supply side feasible (~40–83 Mha for 1 Gt); demand side is the real constraint |
 | **Technical readiness** | 8/10 | Products exist and perform well; standards maturing |
 | **Economic viability** | 9/10 | Profitable without subsidies — strongest economic case of any CDR method |
 | **Resource constraints** | 7/10 | Low energy/water; land is the binding constraint |
 | **Storage permanence** | 6/10 | 50–200 years in buildings; not geological permanence |
-| **Scalability speed** | 5/10 | 5-year bamboo establishment + building industry inertia = decades to scale |
+| **Scalability speed** | 5/10 | 5-year bamboo establishment + building industry inertia = decades to scale; demand ceiling ~0.2–0.4 Gt within framing market |
 | **Environmental co-benefits** | 8/10 | Soil restoration, biodiversity (vs. degraded land), rural employment |
 | **Regulatory readiness** | 5/10 | Building codes are the bottleneck; improving but slow |
 | **Market demand** | 7/10 | Green building demand growing; ESG/carbon mandates accelerating |
-| **OVERALL** | **6.8/10** | **Highly promising as part of a portfolio; unlikely to reach 10 Gt alone but could contribute 2-5 Gt/yr by 2050-2060** |
+| **OVERALL** | **5.5/10** | **Profitable and proven, but demand-capped at ~0.2–0.5 GtCO2/yr within the framing market; reaching higher requires displacing concrete/masonry in developing countries — a much harder problem** |
 
-**Bottom line:** Bamboo construction is the rare carbon capture method that **makes money**. "The Storage Switch" — selling captured carbon as a structural material — transforms CDR from a cost center into a profitable business. The key constraints are land availability, building code adoption, and the sheer scale of construction industry transformation required. A realistic contribution is **2–5 GtCO2/yr by 2050–2060**, making it one of the largest individual carbon removal pathways available, and the most economically attractive.
+**Bottom line:** Bamboo construction is the rare carbon capture method that **makes money**. "The Storage Switch" — selling captured carbon as a construction product — transforms CDR from a cost center into a profitable business. However, the demand-side ceiling is more binding than the supply side. Within the existing framing market (~110–140 Mt/yr), a realistic contribution is **0.2–0.4 GtCO2/yr** — meaningful, but not gigaton-scale. Reaching beyond that requires displacing concrete and masonry construction in developing countries, which is a market-creation problem with no historical precedent. A defensible range is **0.2–0.5 GtCO2/yr by 2050**, with the upper end contingent on bamboo breaking into entirely new construction markets.
 
 ---
 

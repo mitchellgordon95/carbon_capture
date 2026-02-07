@@ -182,7 +182,7 @@ The difficulties are measurement (how do you verify diffuse chemistry changes ac
 
 Biological methods have an inherent energy advantage: they run on sunlight. The constraints are land and permanence. Forests sequester carbon well until they burn, get logged, or die of disease. Biochar addresses permanence — charcoal in soil is stable for centuries to millennia[^34] — but is limited by feedstock. Global agricultural residue production is large (several billion tons/year of dry biomass), but it's distributed, bulky, and already has competing uses.
 
-Bamboo stands out because it's one of the few CDR methods with a profitable product. Processed bamboo replaces steel and timber in construction; the carbon stays locked in the building for its lifespan. No subsidies needed. The bottleneck is building code adoption — most jurisdictions don't yet recognize bamboo as a structural material.[^33]
+Bamboo stands out because it's one of the few CDR methods with a profitable product. Engineered bamboo can substitute for wood framing in residential and light-commercial construction; the carbon stays locked in the building for its lifespan. No subsidies needed. But "replaces steel and concrete" — a claim common in the bamboo industry — overstates things. Bamboo's modulus of elasticity is ~10-15 GPa vs. steel's 200 GPa, making it uncompetitive for high-rise structures and most applications where steel or reinforced concrete are used today. Its realistic market is wood framing and light-gauge steel framing, which together total ~110-140 Mt/yr globally.[^33] That caps the demand side well below gigaton scale (see [bottleneck analysis](#how-crazy-is-1-gtyr-actually)).
 
 The C4 photosynthesis project at Oxford/[IRRI](#glossary) is a genuine moonshot. C4 plants (corn, sugarcane) are roughly twice as photosynthetically efficient as C3 plants (rice, wheat, all trees) because they've evolved a CO2-concentrating mechanism that eliminates photorespiration — a process that wastes 25-30% of the carbon C3 plants fix.[^35] C4 plants also use about 50% less water per unit of biomass.[^35] The project aims to transfer this pathway into rice (and eventually other crops and trees) by introducing ~12-15 genes and re-engineering leaf anatomy (Kranz anatomy).[^35] It's been running since ~2008, is currently in Phase IV, and faces an extraordinarily difficult biology problem: Kranz anatomy involves specialized cell types and spatial organization that hasn't been fully replicated in the lab. If it works, it roughly doubles the carbon capture efficiency of all plant-based CDR. Realistic timeline for deployment: 2035-2045 at the earliest.[^35]
 
@@ -218,7 +218,7 @@ For each method, we can identify the primary constraint — the thing most likel
 | **[OAE](#glossary)** | MRV (proving it works) | Mining scale | ~10-12 Gt of mineral/yr | Ocean chemistry monitoring; 10x mining scale-up |
 | **Reforestation** | Land availability | Permanence (fire) | ~500 million hectares | Fire management; governance; patience (30+ yrs) |
 | **Engineered Trees** | Regulatory (GMO) | Scientific validation | Same land as reforestation | GMO approval; long-term field data |
-| **Bamboo Construction** | Building code adoption | Tropical land | ~30-70 million hectares | Code recognition; processing infrastructure |
+| **Bamboo Construction** | Demand ceiling (framing market too small) | Building code adoption | ~30-70 million hectares | Displace concrete/masonry in developing world, not just wood framing |
 | **Biochar** | Feedstock supply | Logistics | ~3-5 Gt dry biomass/yr | Distributed pyrolysis; more feedstock sources |
 | **C4 Photosynthesis** | Fundamental biology | Regulation + time | Decades away | Engineer Kranz anatomy in C3 plants |
 | **Kelp Forests** | Ocean farming durability | MRV | ~7+ million hectares ocean | Storm-resistant designs; deep-ocean tracking |
@@ -243,7 +243,7 @@ The bottleneck table says "what needs to happen." This section tries to give a f
 
 **Reforestation:** At an average ~10 tCO2/ha/yr (blending tropical and temperate), 1 Gt requires **~100 million hectares** — roughly the area of Egypt. Current net global reforestation is ~0.5 Mha/yr, so the planting rate would need to increase **20-40x** and sustain that for 5-10 years. Then you wait 15-30 years for the trees to reach full sequestration rates. Global nursery capacity would need to go from ~10-15 billion seedlings/yr to **50-100+ billion/yr**. Total restorable land (~2 billion ha) isn't the hard limit; time is.
 
-**Bamboo Construction:** This is one of the more plausible paths. Current bamboo area is ~37 Mha; 1 Gt in durable products requires **40-83 Mha** (only 1.1-2.2x current area — bamboo grows fast and regrows from roots). The real bottleneck: the global construction market would need to go from **<0.1% bamboo** to **10-15% bamboo** — a 100-150x increase in market share. That means **600-1,200 large processing facilities** (vs. ~200-500 today) and building codes that recognize bamboo as structural material. Cost per tCO2 is **negative** (-$85 to -$410) because you're selling a building product. Of all methods reviewed, this is the only one that's profitable without subsidies.[^33]
+**Bamboo Construction:** The supply side is surprisingly plausible — current bamboo area is ~37 Mha, and 1 Gt in durable products requires **40-83 Mha** (only 1.1-2.2x current area, since bamboo regrows from roots). But the demand side is the real problem. Engineered bamboo competes with **wood framing and light-gauge steel framing**, which together total only **~110-140 Mt/yr globally** (~70-100 Mt wood + ~38 Mt steel). Replacing *all* of it with bamboo would store roughly **0.2-0.4 GtCO2/yr** — well short of 1 Gt. To reach 1 Gt, bamboo would have to displace concrete and masonry in countries (China, India, Africa, Latin America) where wood framing barely exists — a market-creation problem, not a material-substitution problem. The economics are attractive where it works (cost per tCO2 is negative, -$85 to -$410, because you're selling a building product), but the addressable market caps the ceiling.[^33][^41]
 
 **Biochar:** Current production removes ~0.3-0.5 MtCO2/yr. 1 Gt requires **~1 Gt/yr of dry biomass feedstock** (20-40% of global sustainable waste biomass supply) processed through **~20,000 large pyrolysis facilities** or **~600,000 modular containerized units** distributed at farms and sawmills within a 15-40 km collection radius. The good news: the process is net energy-positive (produces 200-700 kWh per tCO2 removed), permanence is 500-5,000+ years, and projected cost at scale is $20-100/tCO2. The constraint is purely logistical — getting billions of tons of bulky agricultural residue to pyrolysis units.[^34]
 
@@ -278,11 +278,11 @@ Here's one rough allocation to illustrate how the numbers might add up (this is 
 | Biochar | 1-2 GtCO2/year | Feedstock; but proven and profitable |
 | Ocean Alkalinity Enhancement | 1-3 GtCO2/year | Huge theoretical potential; MRV and governance lag behind |
 | Direct Air Capture (all types) | 1-3 GtCO2/year | Energy; cost needs to fall 5-10x |
-| Bamboo / timber construction | 0.5-1 GtCO2/year | Market adoption; building codes |
+| Bamboo / timber construction | 0.2-0.5 GtCO2/year | Demand ceiling; framing market is ~140 Mt/yr globally |
 | Marine biomass (kelp, algae ponds) | 0.5-2 GtCO2/year | Early-stage; durability and MRV |
 | BECCS (bioenergy + CCS) | 1-2 GtCO2/year | Biomass; competes with biochar for feedstock |
 | Other (DOC, iron fertilization, etc.) | 0.5-1 GtCO2/year | High uncertainty and risk; high potential |
-| **Total** | **~8-18 GtCO2/year** | |
+| **Total** | **~7.5-17.5 GtCO2/year** | |
 
 Even under optimistic assumptions across every category, hitting 20 Gt/year by 2050 is very difficult. This is a useful reminder that emissions reduction remains the most important lever. Every ton not emitted is a ton that doesn't need to be captured.
 
@@ -304,7 +304,7 @@ Based on the bottleneck analysis, here's where additional funding or effort seem
 
 4. **Next-generation sorbent materials.** Solid sorbent DAC costs are dominated by sorbent replacement cycles and regeneration energy.[^23] A cheaper sorbent that lasts longer and releases CO2 at lower temperatures shifts the entire cost curve. This is a materials science problem with a clear target.
 
-5. **Bamboo and timber building codes.** More a policy problem than a technology problem. Bamboo sequesters carbon faster than any tree, produces structural material that can replace steel, and regrows from its roots.[^33] The bottleneck is that most building codes don't recognize it. Funding for testing, certification, and code development could unlock a CDR pathway that pays for itself.
+5. **Bamboo and timber building codes + market creation.** Bamboo sequesters carbon faster than any tree and produces structural framing material that regrows from its roots.[^33] Building codes in most countries don't recognize it, and even where they do, the framing market it competes in (~140 Mt/yr globally) caps the ceiling at ~0.2-0.4 GtCO2/yr. Reaching beyond that requires displacing concrete and masonry in developing countries — a harder problem that involves changing construction traditions, not just passing codes.
 
 6. **Forest permanence solutions.** Reforestation is cheap and well-understood, but fire risk devalues forest carbon credits and caps the effective permanence. Integrating forest management with biochar production (converting undergrowth and debris to biochar rather than letting it become fuel) could improve both the fire resilience and the permanence of forest carbon.
 
@@ -362,7 +362,7 @@ A few things that seem clear from the data:
 
 6. **Permanence varies enormously.** Basalt mineralization: 10,000+ years.[^25] Biochar: centuries to millennia.[^34] Buried desert algae: potentially millennia.[^38] Forest: until the next fire. These differences should be reflected in how removal is valued.
 
-7. **Methods that generate revenue have an easier path to scale.** Bamboo construction, biochar (energy + soil amendment + credits), and microalgae (potential byproducts) don't depend entirely on carbon credit markets or government subsidies. That makes them more robust as long-term bets.
+7. **Methods that generate revenue have an easier path to scale — but demand is a constraint too.** Bamboo construction, biochar (energy + soil amendment + credits), and microalgae (potential byproducts) don't depend entirely on carbon credit markets or government subsidies. But profitable methods are capped by their markets: the global framing market limits bamboo to ~0.2-0.4 GtCO2/yr unless it can break into concrete/masonry construction in developing countries.
 
 ---
 
@@ -437,6 +437,7 @@ A few things that seem clear from the data:
 
 [^39]: House et al. (2011), "Economic and energetic analysis of capturing CO2 from ambient air," PNAS. Thermodynamic minimum for CO2 separation from 400 ppm air: ~20 kJ/mol (~125 kWh/tCO2). With compression to 150 bar: ~30.6 kJ/mol (~191 kWh/tCO2). Current DAC operates at 4-7% of thermodynamic efficiency. [PNAS](https://doi.org/10.1073/pnas.1012253108).
 [^40]: Socolow et al. (2011), "Direct Air Capture of CO2 with Chemicals," APS Physics. Engineering floor for practical DAC: ~500-1,000 kWh/tCO2, consistent with typical industrial separation efficiencies of 5-20% of thermodynamic minimum. [APS](https://www.aps.org/policy/reports/assessments/direct-air-capture).
+[^41]: FAO Global Forest Products Facts and Figures 2023. Global sawnwood production: ~445 million m³/yr; ~70% to construction; structural framing ~70-100 Mt/yr. Light-gauge steel framing: ~38 Mt/yr (Grand View Research 2024). Total framing market: ~110-140 Mt/yr. At ~1.7 tCO2/t bamboo, full replacement stores ~0.2-0.4 GtCO2/yr. [FAO](https://www.fao.org/newsroom/detail/global-forest-products-facts-and-figures-2023-shows-fall-in-global-trade-in-wood-and-paper-products/en).
 
 ---
 
