@@ -5,10 +5,11 @@
 Bamboo construction leverages the fastest-growing woody plant on Earth to sequester atmospheric CO2 into durable building materials. The core insight — **"The Storage Switch"** — is that selling sequestered carbon as a construction product makes capture profitable without subsidies, turning carbon sequestration from a cost center into a revenue-generating business.
 
 **Key headline numbers:**
-- Bamboo sequesters **12–25 tCO2/ha/year** (vs. 5–15 for fast-growing timber plantations)
+- Optimally managed bamboo plantations sequester **12–25 tCO2/ha/year** (vs. 5–15 for fast-growing timber plantations) — but current real-world harvest rates are 5–10x lower than this
 - Bamboo reaches harvest maturity in **3–7 years** (vs. 20–80 for timber)
 - Engineered bamboo has tensile strength **2–3x that of structural steel per unit weight** — but 15x lower stiffness (modulus of elasticity), limiting it to wood-framing-class applications rather than steel replacement
 - Bamboo regrows from existing root systems — **no replanting required** for 50–80 years
+- Current bamboo area is ~37 Mha, but most is **unmanaged natural forest**; only ~3–5 Mt/yr of the ~30 Mt/yr commercially harvested (mostly in China) becomes engineered structural product — the rest is scaffolding, paper, chopsticks, charcoal, and food
 - The realistic addressable market is **wood framing and light-gauge steel framing** (~110–140 Mt/yr globally), not the full steel/concrete market
 - **Demand-side ceiling:** even replacing all structural framing globally with bamboo stores only ~0.2–0.4 GtCO2/yr; reaching beyond that requires displacing concrete/masonry in developing countries where wood framing barely exists
 
@@ -70,7 +71,7 @@ Bamboo construction leverages the fastest-growing woody plant on Earth to seques
 - **Optimal zones:** Southeast Asia, South/Central America, Sub-Saharan Africa, South Asia, Southern China
 - **Moderate zones:** Southern USA (Gulf states, SE coast), Mediterranean, Northern Australia, Pacific Islands
 - **Marginal zones:** Temperate regions (Phyllostachys spp. can grow in USDA zones 5–10)
-- **Current bamboo area:** ~37 million hectares globally (INBAR 2020 estimate), primarily in Asia (>65%)
+- **Current bamboo area:** ~37 million hectares globally (INBAR 2020 estimate), primarily in Asia (>65%). **However, most of this is unmanaged natural bamboo forest**, not commercial plantation. India has 10–15 Mha of mostly wild stands used for crafts and pulp. China's ~6.7 Mha of Moso bamboo is the most commercially developed resource, harvesting ~30 Mt/yr of raw bamboo — but only ~3–5 Mt/yr becomes engineered structural product. The rest goes to scaffolding, paper, chopsticks, charcoal, and bamboo shoots (food). Actual harvest rates from existing stands (~4.5 t/ha/yr from China's managed Moso) are **5–10x lower** than the 20–40 t/ha/yr theoretical yield for optimally managed timber bamboo plantations.
 - **Available suitable land (not currently forested or in agricultural use):** Estimated 100–600 Mha of degraded/marginal tropical/subtropical land could support bamboo
 
 **Water considerations:**
@@ -775,10 +776,11 @@ The supply-side requirements (400–830 Mha of plantation) are challenging but p
 
 | Requirement | Quantity | Current Status | Gap |
 |------------|---------|---------------|-----|
-| **Bamboo plantation area** | 40–83 Mha | ~37 Mha | 1.1–2.2x increase |
-| **Processing capacity** | 60–120 Mt product/yr | ~30 Mt/yr (China alone) | 2–4x increase |
-| **Processing facilities** | 600–1,200 large plants | ~200–500 existing | 1.2–6x increase |
+| **Managed bamboo plantation area** | 40–83 Mha of *optimally managed* plantation | ~6.7 Mha commercially managed (China Moso); ~37 Mha total but mostly unmanaged natural forest | 6–12x increase in *managed* area (not 1.1–2.2x — the 37 Mha figure is misleading) |
+| **Engineered structural product output** | 60–120 Mt product/yr | ~3–5 Mt/yr globally | 12–40x increase |
+| **Processing facilities** | 600–1,200 large plants | ~200–500 existing (mostly non-structural products) | Need new structural-grade facilities |
 | **Construction market penetration** | 30–60% of global framing market | <0.1% | 300–600x increase |
+| **Supply chain redirection** | Most harvested bamboo → structural products | ~90% currently goes to scaffolding, paper, chopsticks, charcoal, food | Fundamental shift in bamboo industry |
 | **Capital investment** | $50–200B cumulative | ~$10B/yr current sector | Manageable |
 
 ### 10.3 Bottleneck Analysis
@@ -790,7 +792,8 @@ The supply-side requirements (400–830 Mha of plantation) are challenging but p
 | **Architect/builder familiarity** | 4 | 10–20 years | Training, demonstration projects needed |
 | **Market creation in concrete/masonry countries** | 5 | 20–40 years (if ever) | No precedent for displacing concrete/masonry with framing in developing world |
 | **Processing infrastructure** | 3 | 10–20 years | Proven technology; needs capital and deployment |
-| **Plantation establishment** | 2 | 5–10 years to productivity | Bamboo grows fast; land expansion modest for realistic targets |
+| **Plantation conversion (natural → managed)** | 3 | 10–20 years | Existing 37 Mha is mostly unmanaged; need 6–12x increase in *managed* area, not total area |
+| **Supply chain redirection** | 3 | 10–20 years | ~90% of harvested bamboo currently goes to non-structural uses (scaffolding, paper, chopsticks, charcoal) |
 | **Consumer acceptance** | 3 | 5–15 years | Perception shift: bamboo as premium, not primitive |
 | **Raw material (bamboo biology)** | 1 | Already resolved | Bamboo grows abundantly; no genetic engineering needed |
 | **Technical performance** | 1 | Already resolved | Proven for framing-class applications; not competitive with steel/concrete |
@@ -938,7 +941,7 @@ Beyond 0.5 GtCO2/yr: Requires market creation
 
 | Dimension | Score (1-10) | Assessment |
 |-----------|-------------|-----------|
-| **Physical feasibility** | 6/10 | Supply side feasible (~40–83 Mha for 1 Gt); demand side is the real constraint |
+| **Physical feasibility** | 5/10 | Supply side harder than it looks (37 Mha mostly unmanaged; need 6–12x managed area); demand side is the binding constraint |
 | **Technical readiness** | 8/10 | Products exist and perform well; standards maturing |
 | **Economic viability** | 9/10 | Profitable without subsidies — strongest economic case of any CDR method |
 | **Resource constraints** | 7/10 | Low energy/water; land is the binding constraint |
